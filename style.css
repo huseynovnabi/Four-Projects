@@ -76,8 +76,8 @@ header .menu nav .lang span:hover {
     display: block;
     position: absolute;
     right: 10px;
-    top: 10px;
-    width: 40px;
+    top: 5px;
+    width: 50px;
   }
   header .menu #hamburgerMenuOpen:hover {
     cursor: pointer;
