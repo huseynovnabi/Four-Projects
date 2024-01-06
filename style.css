@@ -333,6 +333,11 @@ footer .right .social ul li a {
 footer .right .social ul li a i:hover {
   cursor: pointer;
 }
+footer .right .social ul li a .imgbox {
+  display: flex;
+  align-items: center;
+  width: 27px;
+}
 footer .right .contact .textbox h2 {
   color: #fff;
   font-weight: 700;
