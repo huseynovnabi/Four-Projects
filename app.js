@@ -5,14 +5,14 @@ $(document).ready(function () {
     $("#hamburgerMenuOpen").click(function (e) {
         e.preventDefault();
 
-        if ($(this).attr('src') === 'assets/x.png') {
+        if ($(this).attr('src') === 'assets/x2.png') {
             $("nav").css({
                 "right": "-100%",
                 "transition": "1s"
             });
-            $(this).attr('src', 'assets/menu.png');
+            $(this).attr('src', 'assets/menuNEW.png');
         } else {
-            $(this).attr('src', 'assets/x.png');
+            $(this).attr('src', 'assets/x2.png');
             $("nav").css({
                 "right": "0",
                 "transition": "1s"
@@ -25,6 +25,6 @@ $(document).ready(function () {
             "right": "-100%",
             "transition": "0.5s"
         });
-        $("#hamburgerMenuOpen").attr('src', 'assets/menu.png');
+        $("#hamburgerMenuOpen").attr('src', 'assets/menuNEW.png');
     });
 });
