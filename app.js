@@ -20,6 +20,8 @@ $(document).ready(function () {
         }
     });
 
+
+
     $(".homeLink, nav a").click(function () {
         $("nav").css({
             "right": "-100%",
@@ -28,3 +30,9 @@ $(document).ready(function () {
         $("#hamburgerMenuOpen").attr('src', 'assets/menuNEW.png');
     });
 });
+
+
+
+
+
+

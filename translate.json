@@ -1,0 +1,191 @@
+{
+    "AZ": {
+        "home": {
+            "heading": "rəqəmsal layihələr laboratoriyası."
+        },
+        "services": {
+            "title": "Xidmətlərimiz",
+            "items": {
+                "websites": {
+                    "title": "Veb Saytlar",
+                    "description": "Biznesinizi sosial şəbəkədən veb sayta daşıyın!"
+                },
+                "mobileApps": {
+                    "title": "Mobil Tətbiqlər",
+                    "description": "Müştəriləriniz ilə sürətli bağlantı qurun. Xüsusi tətbiq ilə işinizi rahatlaşdırın."
+                },
+                "smm": {
+                    "title": "SMM",
+                    "description": "Sosial şəbəkədə rəqiblərinizi qabaqlayın. Kiçik büdcə ilə böyük satışlar edin."
+                },
+                "branding": {
+                    "title": "Brendinq",
+                    "description": "Markalar arasında öz stilinizi yaradın. Hamıdan seçiləcəksiniz!"
+                },
+                "seo": {
+                    "title": "SEO",
+                    "description": "Veb saytınız Google axtarışda hər zaman zirvədə olsun!"
+                },
+                "projectManagement": {
+                    "title": "Layihələndirmə",
+                    "description": "İdealarınızı bizimlə paylaşın, həyata keçməsinə yardım edək."
+                }
+            }
+        },
+        "about": {
+            "title": "Haqqımızda",
+            "content": "Four Projects yeni yaradılmış, rəqəmsal dünyada fərq yaratmağı hədəfləyən peşəkar mütəxəssislərdən ibarət laboratoriyadır. Qabaqcıl xidmətlərimiz ilə biznesinizi rəqəmsal platformalarda zirvəyə daşıyacağıq. Yaradıcı komandamız layihələrə başlayarkən hər müştərinin istək və hədəflərini ön planda tutaraq, məqsədlərinə çatmağa kömək olacaq. Müştəri məmnuniyyəti və əməkdaşlarımızın uğurları hər zaman prioritetimiz olmuşdur."
+        },
+        "contact": {
+            "title": "Əlaqə",
+            "subtitle": "Layihənizi Four Projects-ə əmanət edin! Yararlanmaq istədiyiniz xidmətlərimizi seçin və fikirlərinizi ətraflı təsvir edin. Ən qısa müddətdə geri dönüş alacaqsınız.",
+            "services": {
+                "website": "Veb Sayt",
+                "mobileApp": "Mobil Tətbiq",
+                "smm": "SMM",
+                "branding": "Brendinq",
+                "other": "Digər"
+            }
+        },
+        "footer": {
+            "social": {
+                "title": "Sosial",
+                "instagram": "https://instagram.com/fourprojcts",
+                "facebook": "https://www.facebook.com/fourprojcts",
+                "twitter": "https://x.com/fourprojcts"
+            },
+            "contact": {
+                "title": "Əlaqə",
+                "email": "info@four.az",
+                "phone": "+994 70 633 44 40"
+            },
+            "copyright": "© 2023 - Four Projects - Bütün hüquqlar qorunur"
+        }
+    },
+    "EN": {
+        "home": {
+            "heading": "Digital Projects Laboratory."
+        },
+        "services": {
+            "title": "Our Services",
+            "items": {
+                "websites": {
+                    "title": "Websites",
+                    "description": "Move your business from social networks to a website!"
+                },
+                "mobileApps": {
+                    "title": "Mobile Apps",
+                    "description": "Establish quick connections with your customers. Ease your business with a special application."
+                },
+                "smm": {
+                    "title": "SMM",
+                    "description": "Outperform your competitors on social networks. Achieve big sales with a small budget."
+                },
+                "branding": {
+                    "title": "Branding",
+                    "description": "Create your own style among brands. You will be chosen by everyone!"
+                },
+                "seo": {
+                    "title": "SEO",
+                    "description": "Keep your website at the top of Google search results at all times!"
+                },
+                "projectManagement": {
+                    "title": "Project Management",
+                    "description": "Share your ideas with us, we will help them come to life."
+                }
+            }
+        },
+        "about": {
+            "title": "About Us",
+            "content": "Four Projects is a newly established laboratory of professional experts aiming to make a difference in the digital world. With our advanced services, we will take your business to the top on digital platforms. Our creative team, starting with projects, will help achieve goals by prioritizing the wishes and goals of each client. Customer satisfaction and the success of our colleagues have always been our priority."
+        },
+        "contact": {
+            "title": "Contact",
+            "subtitle": "Entrust your project to Four Projects! Choose the services you want to benefit from and describe your ideas in detail. You will receive a response in the shortest time.",
+            "services": {
+                "website": "Website",
+                "mobileApp": "Mobile App",
+                "smm": "SMM",
+                "branding": "Branding",
+                "other": "Other"
+            }
+        },
+        "footer": {
+            "social": {
+                "title": "Social",
+                "instagram": "https://instagram.com/fourprojcts",
+                "facebook": "https://www.facebook.com/fourprojcts",
+                "twitter": "https://x.com/fourprojcts"
+            },
+            "contact": {
+                "title": "Contact",
+                "email": "info@four.az",
+                "phone": "+994 70 633 44 40"
+            },
+            "copyright": "© 2023 - Four Projects - All rights reserved"
+        }
+    },
+    "RU": {
+        "home": {
+            "heading": "Лаборатория цифровых проектов."
+        },
+        "services": {
+            "title": "Наши услуги",
+            "items": {
+                "websites": {
+                    "title": "Веб-сайты",
+                    "description": "Перенесите свой бизнес из социальных сетей на веб-сайт!"
+                },
+                "mobileApps": {
+                    "title": "Мобильные приложения",
+                    "description": "Устанавливайте быстрые связи с вашими клиентами. Упрощайте свой бизнес с помощью специального приложения."
+                },
+                "smm": {
+                    "title": "SMM",
+                    "description": "Обгоняйте своих конкурентов в социальных сетях. Достигайте больших продаж с небольшим бюджетом."
+                },
+                "branding": {
+                    "title": "Брендинг",
+                    "description": "Создайте свой стиль среди брендов. Вас выберут все!"
+                },
+                "seo": {
+                    "title": "SEO",
+                    "description": "Держите свой веб-сайт всегда на вершине результатов поиска Google!"
+                },
+                "projectManagement": {
+                    "title": "Управление проектом",
+                    "description": "Поделитесь своими идеями с нами, мы поможем им стать жизнью."
+                }
+            }
+        },
+        "about": {
+            "title": "О нас",
+            "content": "Four Projects - это недавно созданная лаборатория профессиональных экспертов, стремящихся изменить игру в цифровом мире. С нашими передовыми услугами мы поднимем ваш бизнес на вершину в цифровых платформах. Наша креативная команда, начиная с проектов, поможет достичь целей, приоритетно учитывая желания и цели каждого клиента. Удовлетворение клиентов и успех наших коллег всегда были нашим приоритетом."
+        },
+        "contact": {
+            "title": "Контакты",
+            "subtitle": "Доверьте свой проект Four Projects! Выберите услуги, от которых хотите получить выгоду, и подробно опишите свои идеи. Вы получите ответ в кратчайшие сроки.",
+            "services": {
+                "website": "Веб-сайт",
+                "mobileApp": "Мобильное приложение",
+                "smm": "SMM",
+                "branding": "Брендинг",
+                "other": "Другие"
+            }
+        },
+        "footer": {
+            "social": {
+                "title": "Социальные сети",
+                "instagram": "https://instagram.com/fourprojcts",
+                "facebook": "https://www.facebook.com/fourprojcts",
+                "twitter": "https://x.com/fourprojcts"
+            },
+            "contact": {
+                "title": "Контакты",
+                "email": "info@four.az",
+                "phone": "+994 70 633 44 40"
+            },
+            "copyright": "© 2023 - Four Projects - Все права защищены"
+        }
+    }
+}
