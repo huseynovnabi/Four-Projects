@@ -29,6 +29,29 @@ $(document).ready(function () {
         });
         $("#hamburgerMenuOpen").attr('src', 'assets/menuNEW.png');
     });
+
+
+
+    let languageMappings;
+
+    $.getJSON('translate.json', data => (languageMappings = data, changeLanguage('AZ')));
+
+    function changeLanguage(code) {
+        $('[data-translate]').each(function () {
+            const key = $(this).data('translate');
+            if (languageMappings && languageMappings[code] && languageMappings[code][key]) {
+                $(this).text(languageMappings[code][key]);
+            }
+        });
+    }
+
+    $('#language').click(function (e) {
+        e.preventDefault();
+        const current = $(this).text();
+        const next = current === 'AZ' ? 'EN' : (current === 'EN' ? 'RU' : 'AZ');
+        $(this).text(next);
+        changeLanguage(next);
+    });
 });
 
 
