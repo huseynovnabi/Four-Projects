@@ -146,7 +146,7 @@ header .menu nav .lang span:hover {
 
 @media screen and (max-width: 768px) {
   #home .textbox h1 {
-    font-size: 60px;
+    font-size: 45px;
   }
   #home .imgbox {
     margin-top: 30px;
