@@ -225,16 +225,20 @@
                 </div>
                 <div class="row">
                     <div class="col-md-12">
-                        function changeLanguage(code) {
-                            $('[data-translate]').each(function () {
-                                const key = $(this).data('translate');
-                                if (languageMappings && languageMappings[code] && languageMappings[code][key]) {
-                                    $(this).text(languageMappings[code][key]);
-                                    $("#ad").attr("placeholder", languageMappings[code][key]);
-                                    $("#email").attr("placeholder", languageMappings[code][key]);
-                                }
-                            });
-                        }
+                        <form action="#" method="POST">
+                            <h2 data-translate="contactInfo">Məlumatlarınız</h2>
+                            <div class="formBox d-flex align-items-center">
+
+                                <input type="text" id="ad" name="ad" data-translate="contactName" required>
+
+                                <input type="email" id="email" name="email" data-translate="contactEmail" required>
+                            </div>
+
+                            <textarea id="mesaj" name="mesaj" rows="4" cols="50" data-translate="contactProjectInfo"
+                                required></textarea><br><br>
+
+                            <input type="submit" data-translate="contactBtn">
+                        </form>
                     </div>
                 </div>
             </div>
@@ -258,7 +262,7 @@
                         <div class="right d-flex">
                             <div class="social">
                                 <div class="textbox">
-                                    <h2>Sosial</h2>
+                                    <h2 data-translate="footerSocial">Sosial</h2>
                                 </div>
                                 <ul>
                                     <li>
@@ -280,7 +284,7 @@
                             </div>
                             <div class="contact">
                                 <div class="textbox">
-                                    <h2>Əlaqə</h2>
+                                    <h2 data-translate="footerContact">Əlaqə</h2>
                                     <h4>info@four.az</h4>
                                     <h4>+994 70 633 44 40</h4>
                                 </div>
@@ -288,7 +292,7 @@
                         </div>
                     </div>
                     <div class="txt">
-                        <h3>© 2023 - Four Projects - Bütün hüquqlar qorunur</h3>
+                        <h3 data-translate="footerH3">© 2023 - Four Projects - Bütün hüquqlar qorunur</h3>
                     </div>
                 </div>
             </div>

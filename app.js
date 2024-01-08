@@ -46,6 +46,13 @@ $(document).ready(function () {
             if ($(this).is('input')) {
                 $(this).attr("placeholder", languageMappings[code][key]);
             }
+            if ($(this).is('textarea')) {
+                $(this).attr("placeholder", languageMappings[code][key]);
+                $(this).val('');
+            }
+            if ($(this).is('input[type="submit"]')) {
+                $(this).val(languageMappings[code][key]);
+            }
         });
     }
 

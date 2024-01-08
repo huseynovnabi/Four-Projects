@@ -26,7 +26,11 @@
         "contactInfo": "Məlumatlarınız",
         "contactName": "Adınız",
         "contactEmail": "Email adresiniz",
-        "contactProjectInfo": "Layihəniz haqqında qısa məlumat"
+        "contactProjectInfo": "Layihəniz haqqında qısa məlumat",
+        "contactBtn": "Göndər",
+        "footerSocial": "Sosial",
+        "footerContact": "Əlaqə",
+        "footerH3": "© 2023 - Four Projects - Bütün hüquqlar qorunur"
     },
     "EN": {
         "services": "Services",
@@ -55,7 +59,11 @@
         "contactInfo": "Your Informations",
         "contactName": "Your Name",
         "contactEmail": "Your email address",
-        "contactProjectInfo": "Brief information about your project"
+        "contactProjectInfo": "Brief information about your project",
+        "contactBtn": "Send",
+        "footerSocial": "Social",
+        "footerContact": "Contact",
+        "footerH3": "© 2023 - Four Projects - All rights reserved"
     },
     "RU": {}
 }
