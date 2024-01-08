@@ -144,7 +144,7 @@ header .menu nav .lang span:hover {
   height: 370px;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   #home .textbox h1 {
     font-size: 45px;
   }
