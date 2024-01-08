@@ -42,6 +42,10 @@ $(document).ready(function () {
             if (languageMappings && languageMappings[code] && languageMappings[code][key]) {
                 $(this).text(languageMappings[code][key]);
             }
+
+            if ($(this).is('input')) {
+                $(this).attr("placeholder", languageMappings[code][key]);
+            }
         });
     }
 
