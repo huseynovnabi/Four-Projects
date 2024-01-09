@@ -63,21 +63,6 @@ $(document).ready(function () {
         $(this).text(next);
         changeLanguage(next);
     });
-
- 
-
-    // $('.menu nav div a').hover(function () {
-    //     $(this).css('position', 'relative');
-    //     $(this).css('color', 'white');
-    //     $(this).css('text-decoration', 'none');
-    //     $(this).css('margin-right', '50px');
-    //     $(this).css('font-size', '17px');
-    //     $(this).css('position', 'relative');
-    //     // $(this).append('<span class="underline"></span>');
-    //     $('.underline', this).width($(this).width());
-    // }, function () {
-    //     $('.underline', this).width(0);
-    // });
 });
 
 
