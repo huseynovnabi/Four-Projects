@@ -35,12 +35,27 @@ header .menu nav {
   display: flex;
 }
 header .menu nav div {
+  position: relative;
   display: flex;
   align-items: center;
+  margin-left: 50px;
 }
 header .menu nav div a {
-  margin-right: 50px;
   font-size: 17px;
+}
+header .menu nav div a::before {
+  content: "";
+  position: absolute;
+  bottom: -4px;
+  right: 50px;
+  left: 0;
+  width: 0;
+  height: 1px;
+  background-color: #fff;
+  transition: width 0.3s ease;
+}
+header .menu nav div a:hover::before {
+  width: 100%;
 }
 header .menu nav div a:hover {
   cursor: pointer;
@@ -99,12 +114,15 @@ header .menu nav .lang span:hover {
     display: flex;
     align-items: center;
     border-bottom: 1px solid rgba(255, 255, 255, 0.3960784314);
+    margin: 0;
   }
   header .menu nav div a {
-    margin: 0;
     font-size: 25px;
     font-weight: 700;
     padding: 40px 0;
+  }
+  header .menu nav div a::before {
+    bottom: 0;
   }
   header .menu nav div img {
     width: 30px;

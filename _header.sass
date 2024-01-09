@@ -17,11 +17,24 @@ header
         nav
             display: flex
             div
+                position: relative
                 display: flex
                 align-items: center
+                margin-left: 50px
                 a
-                    margin-right: 50px
                     font-size: 17px
+                    &::before
+                        content: ""
+                        position: absolute
+                        bottom: -4px
+                        right: 50px
+                        left: 0
+                        width: 0
+                        height: 1px
+                        background-color: #fff
+                        transition: width 0.3s ease
+                    &:hover::before
+                        width: 100%
                     &:hover
                         cursor: pointer
                 img
@@ -68,11 +81,13 @@ header
                     display: flex
                     align-items: center
                     border-bottom: 1px solid #ffffff65
+                    margin: 0
                     a
-                        margin: 0
                         font-size: 25px
                         font-weight: 700
                         padding: 40px 0
+                        &::before
+                            bottom: 0
                     img
                         width: 30px
                         height: 30px
